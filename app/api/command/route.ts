@@ -1,6 +1,6 @@
 import { CHAT_SETTING_LIMITS } from "@/lib/chat-setting-limits"
 import { checkApiKey, getServerProfile } from "@/lib/server/server-chat-helpers"
-import OpenAI from "openai"
+import OpenAI from "openai/index.mjs"
 
 export const runtime = "edge"
 

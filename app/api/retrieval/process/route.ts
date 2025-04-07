@@ -11,7 +11,7 @@ import { Database } from "@/supabase/types"
 import { FileItemChunk } from "@/types"
 import { createClient } from "@supabase/supabase-js"
 import { NextResponse } from "next/server"
-import OpenAI from "openai"
+import OpenAI from "openai/index.mjs"
 
 export async function POST(req: Request) {
   try {
